@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+    <style>
+        .first,.second,.third,.fourth,.fifth,.sixth,.seventh{
+            width: 75px;
+            height: 75px;
+            border-radius: 10px;
+            border: 5px ridge;
+        }
+        marquee{
+            margin-top: 40px;
+        }
+        .first{
+            background:linear-gradient(10deg, rgb(212, 255, 119), rgb(139, 47, 47) ) ;
+            border-color: rgb(94, 181, 224) blue red violet ;
+            margin-left: 510px;
+        }
+        .second{
+            background:linear-gradient(20deg, rgb(128, 66, 0), rgb(105, 167, 43) ) ;
+            border-color: #c1946a #405d27 #82b74b #3e4444 ;
+            margin-left: 425px;
+        }
+        .third{
+            background:linear-gradient(30deg, rgb(220, 171, 200), rgba(24, 50, 146, 0.527) ) ;
+            border-color: green blue red violet ;
+            margin-left: 340px;
+        }
+        .fourth{
+            background:linear-gradient(40deg, rgb(222, 234, 232), black ) ;
+            border-color: green blue red violet ;
+
+            margin-left: 255px;
+
+        }
+        .fifth{
+            background:linear-gradient(50deg, green, black ) ;
+            border-color: green blue red violet ;
+            margin-left: 170px;
+
+        }
+        .sixth{
+            background: linear-gradient(60deg, plum, aliceblue);
+            border-color:yellow red blue black ;
+            margin-left: 85px;
+        }
+        .seventh{
+            background: radial-gradient( blue, green) ;
+            border-color: aquamarine firebrick yellowgreen indianred;
+            
+        }
+        .mainDiv{
+            width: max-content;
+            height: max-content;
+            background-image:url(https://cdn.wallpapersafari.com/23/77/DP60WY.jpeg);
+            background-size: cover;
+            border: 5px solid rgb(191, 237, 147);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="first">
+            <marquee behavior="alternate" direction="right">Monday</marquee>
+        </div>
+        <div class="second">
+            <marquee behavior="alternate" direction="right">Tuesday</marquee>
+        </div>
+        <div class="third">
+            <marquee behavior="alternate" direction="right">Wednesday</marquee>
+        </div>
+        <div class="fourth">
+            <marquee behavior="alternate" direction="right">Thursday</marquee>
+        </div>
+        <div class="fifth">
+            <marquee behavior="alternate" direction="right">Friday</marquee>
+        </div>
+        <div class="sixth">
+            <marquee behavior="alternate" direction="right">Saturday</marquee>
+        </div>
+        <div class="seventh">
+            <marquee behavior="alternate" direction="right">Sunday</marquee>
+        </div>
+    </div>
+</body>
+</html>
